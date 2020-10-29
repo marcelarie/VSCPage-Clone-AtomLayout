@@ -6,18 +6,11 @@
     text-decoration: none;
 }
 a { color: inherit; }
-/*fonts*/
+/*background*/
 
-/*responsive*/
-
-/*header*/
-
-/*logo*/
-
-/*navigation Bar*/
-
-/*main*/
-
-/*footer*/
-
-/*mediaQueries*/
+/*MainPage A*/
+#vsc-screenshot {
+    width: 750px;
+    box-shadow: 2px;
+}
+/*download*/
