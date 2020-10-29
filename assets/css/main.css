@@ -6,7 +6,10 @@
     text-decoration: none;
 }
 a { color: inherit; }
-/*fonts*/
+/*fontReleated*/
+.normal-text {
+    font-size: 18px;
+}
 /*background*/
 
 /*MainPage A*/
@@ -27,16 +30,46 @@ div { display: block; }
 }
 .col-33 {
     width: 60%;
-    margin-top: 4em;
+    margin-top: 3em;
     position: absolute;
     float: left;
+    left: 0;
 }
 .col-66 {
     width: 60%;
+    flex: 1;
+    position: absolute;
     float: right;
+    right: 0;
 }
 #features {
     height: 60vh;
-    margin-top: 5em;
+    min-width: 900px;
+    margin-top: 2em;
+}
+#main-subtitle {
+    text-align: center;
+    position: absolute;
+    padding: 7%;
 }
 /*download*/
+.buttons a{
+    background-color: #FFD152;
+    color: #343233;
+    padding: 17px 27px;
+    flex: 1;
+    margin-right: 2px;
+    font-size: 1.2em;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.buttons a:hover {
+    background-color: #ffc31f;
+}
+.buttons a:active {
+    background-color:#ebac00;
+}
+.download-icon {
+    height: 18px;
+    margin: 0 5px;
+}
