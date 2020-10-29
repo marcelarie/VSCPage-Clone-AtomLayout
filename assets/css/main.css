@@ -11,7 +11,7 @@ a { color: inherit; }
 
 /*MainPage A*/
 #vsc-screenshot {
-    width: 750px;
     box-shadow: 2px;
+    border-radius: 13%;
 }
 /*download*/
