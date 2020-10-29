@@ -1,0 +1,57 @@
+:root {
+ --navbar: #584A4F;
+ --bg: #353537;
+ --text: #EEDBB9;
+ --darkText: #776F62;
+ --yellow: #FFC31E;
+ --blueGreen: #45EDC6;
+ --orange: #D46E2D;
+ --footer: #EFEAE1;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+ background: var(--bg);
+ color: #EEDBB9;
+ font-family: 'Nunito', sans-serif;
+ font-weight: 400;
+}
+/************
+    NAVBAR
+************/
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1em 0;
+  background: var(--navbar);
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  float: left;
+  margin: 0 .5em;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/*fonts*/
+
+/*responsive*/
+
+/*header*/
+
+/*logo*/
+
+/*navigation Bar*/
+
+/*main*/
+
+/*footer*/
+
+/*mediaQueries*/
