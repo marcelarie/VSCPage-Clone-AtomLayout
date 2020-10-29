@@ -11,31 +11,32 @@ a { color: inherit; }
 
 /*MainPage A*/
 #vsc-screenshot {
-    border-radius: 13%;
+    border-radius: 11%;
 }
 /*menuCenter*/
 div { display: block; }
 .row h1 {
     font-size: 3rem;
     text-align: center;
+    line-height: 4rem;
 }
 .column {
-    margin: 0 30;
     position: relative;
     padding-right: 15px;
     padding-left: 15px;
 }
 .col-33 {
-    width: 50%;
+    width: 60%;
+    margin-top: 4em;
+    position: absolute;
     float: left;
-    padding-left: 30%;
 }
 .col-66 {
-    width: 50%;
+    width: 60%;
     float: right;
-    padding-right: 30%;
 }
 #features {
     height: 60vh;
+    margin-top: 5em;
 }
 /*download*/
