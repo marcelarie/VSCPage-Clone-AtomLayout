@@ -1,3 +1,4 @@
+@import"plugin.css";
 :root {
  --navbar: #584A4F;
  --bg: #353537;
@@ -23,6 +24,40 @@ body {
  font-family: 'Nunito', sans-serif;
  font-weight: 400;
 }
+h1 {
+  font-size: 2.4em;
+  font-weight: 200;
+}
+h3 {
+  font-size: 2em;
+  letter-spacing: .05em;
+  font-weight: 200;
+  margin-bottom: .25em;
+}
+h4 {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: .25em;
+}
+p {
+  font-weight: 300;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.text-center {
+  text-align: center;
+}
+.link {
+  color: var(--yellow);
+  transition: opacity 200ms ease-in-out;
+}
+.link:hover {
+  opacity: .8;
+}
 /************
     NAVBAR
 ************/
@@ -33,6 +68,10 @@ header {
   padding: 0.7em 0;
   background: var(--navbar);
   margin-bottom: 2em;
+}
+nav {
+  display: flex;
+  align-items: center;
 }
 nav ul {
   list-style: none;
@@ -51,47 +90,26 @@ nav ul li:hover,
 .login a:hover {
   color: var(--green);
 }
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
 /************
   FEATURES
 ************/
-.wrapper {
-  margin: 3em auto;
+#real__features {
+  margin-top: 7em;
+}
+.wrapper-features {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 .text {
-  flex: 50%;
   padding: 2em 5em 5em;
   justify-content: center;
   margin: 0 auto;
 }
-.text h3 {
-  font-size: 2em;
-  letter-spacing: .05em;
-  font-weight: 200;
-  margin-bottom: .25em;
-}
 .text p {
   margin-bottom: 3em;
   width: 70%;
-  font-weight: 300;
-  font-size: 1.2em;
-  line-height: inherit;
 }
-.text p a {
-  color: var(--yellow);
-  transition: opacity 200ms ease-in-out;
-}
-.text p a:hover {
-  opacity: .8;
-}
-
 .text .btn {
   padding: .5em 1em;
   line-height: inherit;
@@ -117,5 +135,85 @@ a {
   background: #0172C6;
 }
 .text .btn:hover {
+
+  opacity: .9;
+}
+/*************
+  EXTENSION
+*************/
+#extensions {
+  padding: 7em 4em;
+}
+.text-extensions {
+  justify-content: center;
+  margin: 0 auto;
+}
+.text-extensions p {
+  width: 70%;
+}
+.image-extensions img {
+  width: 100%;
+}
+/************
+  DOWNLOAD
+************/
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4em;
+}
+.windows,
+.apple,
+.linux {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3em;
+}
+.download-button {
+  margin-top: 1.5em;
+}
+.download-button button {
+  padding: .25em 1.25em;
+  background: var(--yellow);
+  color: var(--bg);
+  font-weight: 500;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: opacity 200ms ease-in-out;
+}
+.download-button button:hover {
+  opacity: .9;
+}
+
+
+/***********
+  CONTACT
+***********/
+#contact {
+  background: #2C2A2B;
+  padding: 7em;
+}
+.terms {
+  margin-bottom: 5em;
+}
+.terms h3 {
+  margin-bottom: .5em;
+}
+.terms p {
+  font-size: 1.2em;
+  font-weight: 400;
+}
+.download-text {
+  width: 75%;
+  margin: auto;
+  line-height: 2.5;
+}
+=======
   opacity: .8;
 }
+
