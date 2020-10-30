@@ -1,7 +1,8 @@
 :root {
  --navbar: #584A4F;
  --bg: #353537;
- --text: #efdad9;
+ --text: #efeae1;
+ --darkerText:#343233;
  --darkText: #776F62;
  --yellow: #FFC31E;
  --yellow-buttons: #FFD152;
@@ -29,8 +30,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 1em 0;
+  padding: 0.6em 0;
   background: var(--navbar);
+  margin-bottom: 2em;
 }
 nav ul {
   list-style: none;
@@ -38,6 +40,12 @@ nav ul {
 nav ul li {
   float: left;
   margin: 0 .5em;
+  font-size: 0.9em;
+  color: var(--text);
+}
+.login a {
+    font-size: 0.9em;
+    color: var(--text);
 }
 nav ul li:hover,
 .login a:hover {

@@ -25,8 +25,6 @@ a { color: inherit; }
 #screenshot-cont {
     margin-right: 3em;
 }
-#download-cont {
-}
 #download-list {
     border:1px solid #4e4b4d;
     border-radius: 20px;
@@ -49,6 +47,7 @@ a { color: inherit; }
     color: #8e8373;
     font-weight: 200;
 }
+#download-button a { color:var(--darkerText);}
 #download-list #download-icon {
     font-weight: 200;
     font-size:0.7em;
@@ -56,7 +55,7 @@ a { color: inherit; }
 }
 .border-download-item {
     border-bottom:1px solid #4e4b4d;
-    padding: 1em 2em;
+    padding: 1.2em 1em;
 }
 
 /*download*/
@@ -92,6 +91,7 @@ a { color: inherit; }
     justify-content:center;
     flex-direction: column;
     text-align: center;
+    margin-bottom: 7em;
 }
 .text-license {
     letter-spacing: 0.04em;
@@ -108,8 +108,8 @@ a { color: inherit; }
     
 }
 .code-redefined {
-    font-size: 2.3em;
     font-weight: 200;
+    font-size: 3.7em;
 }
 .tagline-highlight {
     color: #78b0a0;
