@@ -1,4 +1,5 @@
-@import"plugin.css";
+@import "plugin.css";
+
 :root {
  --navbar: #584A4F;
  --bg: #353537;
@@ -179,8 +180,6 @@ nav ul li:hover,
 .download-button button:hover {
   opacity: .9;
 }
-
-
 /***********
   CONTACT
 ***********/
