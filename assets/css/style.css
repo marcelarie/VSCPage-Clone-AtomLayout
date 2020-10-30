@@ -123,6 +123,7 @@ nav ul li:hover,
   color: var(--text);
   cursor: pointer;
   transition: opacity 200ms easy-in-out;
+  transform: translateY(2px);
 }
 .intelliSense {
   background: #2F3192;
@@ -182,6 +183,7 @@ nav ul li:hover,
   padding: 0.5em 0.8em;
   background: var(--yellow-buttons);
   color: var(--darkerText);
+  outline: none;
   font-weight: 500;
   font-size: 1.2em;
   border: none;
@@ -196,6 +198,7 @@ nav ul li:hover,
 }
 .download-button button:active {
     background-color: var(--yellow-b-active);
+    transform: translateY(2px);
 }
 
 
