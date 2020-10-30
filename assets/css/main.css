@@ -61,14 +61,15 @@ a { color: inherit; }
 /*download*/
 .buttons { border:none;}
 .buttons a{
-    background-color: #FFD152;
-    color: #343233;
-    padding: 17px 27px;
+    background-color: var(--yellow-buttons);
+    color: var(--darkerText);
+    padding: 1em 1.5em;
     flex: 1;
     margin-right: 2px;
     font-size: 0.9em;
     font-weight: 200;
     border-radius: 5px;
+    cursor: pointer;
 }
 .buttons a:hover {
     background-color: #ffc31f;

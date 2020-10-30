@@ -6,6 +6,8 @@
  --darkerText:#343233;
  --darkText: #776F62;
  --yellow: #FFC31E;
+ --yellow-b-hover: #ffc31f;
+ --yellow-b-active: #ebac00;
  --yellow-buttons: #FFD152;
  --blueGreen: #45EDC6;
  --orange: #D46E2D;
@@ -176,18 +178,24 @@ nav ul li:hover,
   margin-top: 1.5em;
 }
 .download-button button {
-  padding: .25em 1.25em;
-  background: var(--yellow);
-  color: var(--bg);
+  /* padding: .25em 1.25em; */
+  padding: 0.5em 0.8em;
+  background: var(--yellow-buttons);
+  color: var(--darkerText);
   font-weight: 500;
   font-size: 1.2em;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: opacity 200ms ease-in-out;
+  cursor: pointer;
 }
 .download-button button:hover {
   opacity: .9;
+  background-color: var(--yellow-b-hover);
+}
+.download-button button:active {
+    background-color: var(--yellow-b-active);
 }
 
 
@@ -213,7 +221,3 @@ nav ul li:hover,
   margin: auto;
   line-height: 2.5;
 }
-=======
-  opacity: .8;
-}
-
