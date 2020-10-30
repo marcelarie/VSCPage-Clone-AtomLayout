@@ -1,3 +1,45 @@
 #main {
   background: white;
+  color: #574c4f;
+  padding: 2em;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.documentation li a {
+  color: var(--green);
+}
+
+/* FOOTER */
+footer {
+  display: block;
+}
+footer ul {
+  list-style: none;
+}
+.footer {
+    background-color: var(--footer);
+    height: 55px;
+    padding: 15px;
+    color: var(--footer-text);
+    align-items: center;
+}
+.footer-elements {
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: space-around;
+    display: flex;
+}
+#footer-left {
+    float:left;
+}
+#footer-left li {
+    float: left;
+    margin: 0 1em;
+}
+#footer-rigth {
+    float: right;
 }
