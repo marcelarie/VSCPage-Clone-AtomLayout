@@ -1,12 +1,13 @@
 :root {
  --navbar: #584A4F;
  --bg: #353537;
- --text: #EEDBB9;
+ --text: #efdad9;
  --darkText: #776F62;
  --yellow: #FFC31E;
  --yellow-buttons: #FFD152;
  --blueGreen: #45EDC6;
  --orange: #D46E2D;
+ --green: #3FA774;
  --footer: #EFEAE1;
 }
 * {
@@ -37,22 +38,75 @@ nav ul li {
   float: left;
   margin: 0 .5em;
 }
+nav ul li:hover,
+.login a:hover {
+  color: var(--green);
+}
 a {
   text-decoration: none;
   color: inherit;
 }
-/*fonts*/
 
-/*responsive*/
+/************
+  FEATURES
+************/
+.wrapper {
+  margin: 3em auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text {
+  flex: 50%;
+  padding: 2em 5em 5em;
+  justify-content: center;
+  margin: 0 auto;
+}
+.text h3 {
+  font-size: 2em;
+  letter-spacing: .05em;
+  font-weight: 200;
+  margin-bottom: .25em;
+}
+.text p {
+  margin-bottom: 3em;
+  width: 70%;
+  font-weight: 300;
+  font-size: 1.2em;
+  line-height: inherit;
+}
+.text p a {
+  color: var(--yellow);
+  transition: opacity 200ms ease-in-out;
+}
+.text p a:hover {
+  opacity: .8;
+}
 
-/*header*/
-
-/*logo*/
-
-/*navigation Bar*/
-
-/*main*/
-
-/*footer*/
-
-/*mediaQueries*/
+.text .btn {
+  padding: .5em 1em;
+  line-height: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  /* color: #343233; */
+  color: var(--text);
+  cursor: pointer;
+  transition: opacity 200ms easy-in-out;
+}
+.intelliSense {
+  background: #2F3192;
+}
+.debugging{
+  background: #37B349;
+}
+.git {
+  background: #C52D36;
+}
+.azure {
+  background: #0172C6;
+}
+.text .btn:hover {
+  opacity: .8;
+}
