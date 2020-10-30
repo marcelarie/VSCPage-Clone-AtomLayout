@@ -120,9 +120,12 @@ nav ul li:hover,
   border: none;
   border-radius: 5px;
   /* color: #343233; */
+  outline: none;
   color: var(--text);
   cursor: pointer;
   transition: opacity 200ms easy-in-out;
+}
+.text .btn:active {
   transform: translateY(2px);
 }
 .intelliSense {
