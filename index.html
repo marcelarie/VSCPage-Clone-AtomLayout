@@ -5,7 +5,7 @@
     <meta name="author" content="Marcel Arie y Fabrizio Ervini">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- FONT AWESOME --> 
+    <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous"> <!-- GOOGLE FONT --> <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap" rel="stylesheet"> 
     <!-- GOOGLE FONT -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap" rel="stylesheet">
@@ -18,10 +18,10 @@
     <header>
         <nav>
             <ul>
-                <li><a href="">Overview</a></li>
-                <li><a href="">Plugin</a></li>
-                <li>Documentation</li>
-                <li>Blog</li>
+                <li><a href="/overview.html">Overview</a></li>
+                <li><a href="/plugin.html">Plugin</a></li>
+                <li><a href="https://code.visualstudio.com/updates/v1_50">Documentation</a></li>
+                <li><a href="https://code.visualstudio.com/blogs/2020/07/27/containers-edu">Blog</a></li>
             </ul>
         </nav>
         <div class="login">
@@ -29,17 +29,19 @@
         </div>
     </header>
     <section id="features">
-            <div id="screenshot-cont"><img id="vsc-screenshot" alt="vsc-screenshot" src="assets/img/visual-studio-code.png"></div>
+            <div id="screenshot-cont">
+                <img src="https://media.giphy.com/media/yAGIvCiwPJn5C/giphy.gif" alt="gif-vs-code" width="600px">
+            </div>
             <div id="download-cont">
                 <ul id="download-list">
                     <li class="border-download-item"><span>VSCODE</span></li>
-                    <li class="border-download-item ">1.50.1<a href="">Other versions</a></li>
-                    <li class="border-download-item ">Linux<a href="">Build from source</a></li>
+                    <li class="border-download-item">1.50.1<a href="">Other versions</a></li>
+                    <li class="border-download-item">Linux<a href="">Build from source</a></li>
                     <div class="buttons">
                         <li >
                             <a id="download-icon" href=""><img  class="download-icon" alt="download-icon" src="assets/img/download-black.svg"><b>.deb</b></a>
                         </li>
-                    </div> 
+                    </div>
                 </ul>
             </div>
     </section>
@@ -52,7 +54,7 @@
     </section>
     <!-- FEATURES -->
     <section id="real__features">
-        <div class="wrapper">
+        <div class="wrapper-features">
             <div class="text">
                 <h3>Meet IntelliSense.</h3>
                 <p>
@@ -65,7 +67,7 @@
                 <img src="http://127.0.0.1:5501/original/index_files/home-intellisense.svg" alt="IntelliSense">
             </div>
         </div>
-        <div class="wrapper">
+        <div class="wrapper-features">
             <div class="image">
                 <img src="http://127.0.0.1:5501/original/index_files/home-debug.svg" alt="debugging">
             </div>
@@ -78,7 +80,7 @@
                 <button class="btn debugging">Learn More</button>
             </div>
         </div>
-        <div class="wrapper">
+        <div class="wrapper-features">
             <div class="text">
                 <h3>Git commands built-in.</h3>
                 <p>Working with Git and other SCM providers has never been easier. Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted SCM service.</p>
@@ -88,26 +90,91 @@
                 <img src="http://127.0.0.1:5501/original/index_files/home-git.svg" alt="Git">
             </div>
         </div>
-        <div class="wrapper">
+        <div class="wrapper-features">
             <div class="image">
-                <img src="http://127.0.0.1:5501/original/index_files/home-azure.svg" alt="Git">
+                <img src="http://127.0.0.1:5501/original/index_files/home-azure.svg" alt="azure">
             </div>
             <div class="text">
                 <h3>Deploy with confidence and ease</h3>
-                <p>With <a href="https://azure.microsoft.com/en-gb/">Microsoft Azure</a> you can deploy and host your React,
+                <p>With <a href="https://azure.microsoft.com/en-gb/" target="_blank" class="link">Microsoft Azure</a> you can deploy and host your React,
                     Angular, Vue, Node, Python (and more!) sites, store and query relational and document based data,
-                    and scale with serverless computing, all with ease, <a href="https://code.visualstudio.com/docs/azure/extensions">all from within VS Code.</a>
+                    and scale with serverless computing, all with ease, <a href="https://code.visualstudio.com/docs/azure/extensions" target="_blank" class="link">all from within VS Code.</a>
                 </p>
                 <button class="btn azure">Learn More</button>
             </div>
         </div>
-        </div>
-        <div>Extensible and customizable.</div>
-        <div>Want even more features? Install extensions to add new languages, themes, 
-            debuggers, and to connect to additional services. Extensions run in separate processes, ensuring they 
-            won't slow down your editor.</div> <div><a href="">Learn more about extensions.</a></div>
-
     </section>
+    <!-- EXTENSIONS -->
+    <section id="extensions">
+        <div class="wrapper-features">
+            <div class="text-extensions">
+                <h3>Extensible and customizable.</h3>
+                <p>
+                    Want even more features? Install extensions to add new languages, themes, debuggers, and to connect to additional services. Extensions run in separate processes, ensuring they won't slow down your editor.<a href="https://code.visualstudio.com/docs/editor/extension-gallery" target="_blank" class="link"> Learn more about extensions.</a>
+                </p>
+            </div>
+            <div class="image-extensions">
+                <img src="http://127.0.0.1:5501/original/index_files/Hundreds-of-Extensions.png" alt="extensions">
+            </div>
+        </div>
+    </section>
+    <!-- DOWNLOAD -->
+    <section id="download">
+        <div class="container">
+            <!-- WINDOWS -->
+            <div class="windows">
+                <img src="/assets/img/microsoft.png" alt="microsoft-logo" width="100px" height="100px" class="logo-icon">
+                <div class="download-button">
+                    <button>
+                        <img src="/assets/img/download-black.svg" width="20px" height="20px" alt="arrow-down">
+                         Windows<br>
+                        <small>Windows 7, 8, 10</small>
+                    </button>
+                </div>
+            </div>
+            <!-- LINUX -->
+            <div class="linux">
+                <img src="/assets/img/linux.svg" alt="linux-logo" width="100px" height="100px" class="logo-icon">
+                <div class="download-button">
+                    <button>
+                        <img src="/assets/img/download-black.svg" width="20px" height="20px" alt="arrow-down">
+                         .deb<br>
+                        <small>Linux Debian, Ubuntu</small>
+                    </button>
+                    <button>
+                        <img src="/assets/img/download-black.svg" width="20px" height="20px" alt="arrow-down">
+                         .rpm<br>
+                        <small>Red HAt, Fedora, SUSE</small>
+                    </button>
+                </div>
+            </div>
+            <!-- APPLE -->
+            <div class="apple">
+                <img src="/assets/img/apple.png" alt="apple-logo" width="90px" height="100px" class="logo-icon">
+                <div class="download-button">
+                    <button>
+                    <img src="/assets/img/download-black.svg" width="20px" height="20px" alt="arrow-down">
+                         Mac<br>
+                        <small>macOS 10.10 +</small>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="terms text-center">
+            <h3>Want new features sooner?</h3>
+            <p>Get the <a href="https://code.visualstudio.com/insiders/" target="_blank" class="link">Insiders build</a> instead.</p>
+        </div>
+        <div class="alt-download text-center">
+            <h4>LICENSE AND PRIVACY TERMS</h4>
+            <p class="download-text">
+                By downloading and using Visual Studio Code, you agree to the <a href="https://code.visualstudio.com/License/" target="_blank" class="link">license terms</a>  and <a href="https://privacy.microsoft.com/en-us/privacystatement" target="_blank" class="link">privacy statement</a>. VS Code automatically sends telemetry data and crash dumps to help us improve the product. If you would prefer not to have this data sent please go see <a href="https://code.visualstudio.com/docs/supporting/FAQ#_how-to-disable-crash-reporting" target="_target" class="link">How to Disable Crash Reporting</a>  to learn how to disable it.
+            </p>
+        </div>
+    </section>
+    <!-- FOOTER -->
     <script src="js/scriptHere.js"></script>
 </body>
 </html>
