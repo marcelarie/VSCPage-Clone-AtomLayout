@@ -2,7 +2,8 @@
 :root {
  --navbar: #584A4F;
  --bg: #353537;
- --text: #efdad9;
+ --text: #efeae1;
+ --darkerText:#343233;
  --darkText: #776F62;
  --yellow: #FFC31E;
  --yellow-buttons: #FFD152;
@@ -10,6 +11,7 @@
  --orange: #D46E2D;
  --green: #3FA774;
  --footer: #EFEAE1;
+ --footer-text: #574c4f;
 }
 * {
   margin: 0;
@@ -63,8 +65,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 1em 0;
+  padding: 0.7em 0;
   background: var(--navbar);
+  margin-bottom: 2em;
 }
 nav {
   display: flex;
@@ -76,6 +79,12 @@ nav ul {
 nav ul li {
   float: left;
   margin: 0 .5em;
+  font-size: 0.9em;
+  color: var(--text);
+}
+.login a {
+    font-size: 0.9em;
+    color: var(--text);
 }
 nav ul li:hover,
 .login a:hover {
@@ -126,6 +135,7 @@ nav ul li:hover,
   background: #0172C6;
 }
 .text .btn:hover {
+
   opacity: .9;
 }
 /*************
@@ -203,3 +213,7 @@ nav ul li:hover,
   margin: auto;
   line-height: 2.5;
 }
+=======
+  opacity: .8;
+}
+

@@ -14,11 +14,15 @@ Atom : https://atom.io/
 ╔╦╗┌─┐  ╔╦╗┌─┐
  ║ │ │   ║║│ │
  ╩ └─┘  ═╩╝└─┘
-[] Make main home page a flexible box
+[X] Make main home page a flexible box
 [] Make it responsive too
 [] Background icons of VSCode extensions
-[] Main home page part B
+[X] (Fabri) Main home page part B
 [] The three kings final download
+[] Footer
 ╦┌┐┌┌─┐┬┌┬┐┌─┐┌┐┌┌┬┐┌─┐
 ║││││  │ ││├┤ │││ │ └─┐
 ╩┘└┘└─┘┴─┴┘└─┘┘└┘ ┴ └─┘
+
+The home page wasnt responsive because the position
+absolute. Learned flex-box to fix it. 
