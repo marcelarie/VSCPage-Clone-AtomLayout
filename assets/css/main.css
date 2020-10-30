@@ -120,12 +120,30 @@ a { color: inherit; }
 
 
 /*footer*/
+footer {display: block;}
 .footer {
     background-color: var(--footer);
     height: 55px;
     padding: 15px;
+    color: var(--footer-text);
+    align-items: center;
 }
-
+.footer-elements {
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: space-around;
+    display: flex;
+}
+#footer-left {
+    float:left;
+}
+#footer-left li { 
+    float: left; 
+    margin: 0 1em;
+}
+#footer-rigth {
+    float: right;
+}
 
 
 
