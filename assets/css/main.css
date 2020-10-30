@@ -119,8 +119,12 @@ a { color: inherit; }
 }
 
 
-
-
+/*footer*/
+.footer {
+    background-color: var(--footer);
+    height: 55px;
+    padding: 15px;
+}
 
 
 
