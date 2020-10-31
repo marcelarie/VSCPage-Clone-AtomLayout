@@ -58,7 +58,7 @@
     padding: 2em 1em;
     margin-top: 8px;
     text-decoration: none;
-    width: 25%;
+    width: 26%;
     border: 1px solid #819c67;
     border-radius: 3px;
     background-color: var(--gallery-color);
@@ -78,21 +78,29 @@
     display: flex;
 }
 .publisher {
-    margin-right: 1.5em;
+    margin-right: 3em;
+    font-size: 0.9em;
 }
 .installs {
     display: flex;
     margin-bottom: 1em;
 }
-.details {}
+.install-count {
+    font-size: 0.9em;
+}
+.details {
+    font-size: 0.9em;
+    text-justify: auto;
+}
 .separation {}
 .python {}
 
 .icon-cell {
     text-align: center;
 }
-.icon-cell img { 
+.icon-cell > img { 
     width: 72px;
+    margin-bottom:1em;
 }
 .install-icon img {
     width: 12px;
