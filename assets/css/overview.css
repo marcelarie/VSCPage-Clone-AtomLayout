@@ -76,7 +76,7 @@
 }
 .one-cell p {color: var(--gallery-text);}
 .name-cell {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
     text-align: left;
     position: relative;
@@ -84,6 +84,7 @@
 .info-cell {
     position: relative;
     display: flex;
+    justify-content: space-between;
 }
 .publisher {
     margin-right: 3em;
@@ -98,7 +99,7 @@
 }
 .details {
     font-size: 0.8em;
-    text-justify: auto;
+    text-align: justify;
 }
 .separation {
     padding: 0 1em;
