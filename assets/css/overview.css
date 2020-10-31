@@ -29,7 +29,7 @@
 }
 /*main-content*/
 .central-content {
-    max-width: 750px;
+    max-width: 780px;
 }
 /*main-fonts*/
 .central-content h1 {
@@ -45,28 +45,36 @@
     font-family: 'Liberation-Sans', sans-serif;
 }
 /*image-releated*/
+.carrousel {
+    margin: 0 auto;
+}
 #img-carrousel {
     margin-bottom: 2em;
     margin-top: 1em;
     border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 /*extension-market*/
-#extension-market {}
+#extensions-market {
+     margin-top: 2em;
+     display: flex;
+     flex-direction: column;
+}
 .one-cell {
     float: left;
     padding: 2em 1em;
-    margin-top: 8px;
+    margin: 0.2em 0.2em;
     text-decoration: none;
-    width: 26%;
+    width: 24%;
     border: 1px solid #819c67;
     border-radius: 3px;
     background-color: var(--gallery-color);
     font-size: 0.9em;
 }
 .one-cell p {color: var(--gallery-text);}
-.cover {
-}
 .name-cell {
     font-size: 1.2rem;
     font-weight: 600;
@@ -79,7 +87,7 @@
 }
 .publisher {
     margin-right: 3em;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 .installs {
     display: flex;
@@ -89,12 +97,12 @@
     font-size: 0.9em;
 }
 .details {
-    font-size: 0.9em;
+    font-size: 0.8em;
     text-justify: auto;
 }
-.separation {}
-.python {}
-
+.separation {
+    padding: 0 1em;
+}
 .icon-cell {
     text-align: center;
 }
