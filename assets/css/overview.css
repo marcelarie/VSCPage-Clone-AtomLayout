@@ -1,3 +1,9 @@
+/*fonts*/
+@font-face {
+  font-family: 'Liberation-Sans';
+  src: url(assets/fonts/liberationSans/LiberationSans-Regular.ttf);
+}
+
 /*main container*/
 .content-push {
     margin-top: 40px;
@@ -8,5 +14,34 @@
     margin-left: auto;
     width: 1060px;
 }
-/*background color*/
-.overview {background-color: var(--text);
+/*color changes*/
+.overview {
+    background-color: var(--text);
+}
+.overview h1, h2, h3, h4, h5 ,h6, p {
+    color: var(--over-text);
+}
+/*main-content*/
+.central-content {
+    max-width: 750px;
+}
+/*main-fonts*/
+.central-content h1 {
+    font-weight: 200;
+    margin-bottom: 0.5em;
+}
+.central-content h2,h3,h4,h5,h6 {
+    font-weight: 300;
+    margin-bottom: 0.5em;
+}
+.central-content p {
+    margin-bottom: 1.5em;    
+    font-size: 1.1em;
+    font-family: 'Liberation-Sans', sans-serif;
+}
+/*image-releated*/
+img {
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+
