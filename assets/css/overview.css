@@ -3,7 +3,6 @@
     --gallery-text: #4c7226;
 }
 
-
 /*fonts*/
 @font-face {
   font-family: 'Liberation-Sans';
@@ -20,17 +19,20 @@
     margin-left: auto;
     width: 1060px;
 }
+
 /*color changes*/
 .overview {
     background-color: var(--text);
 }
-.overview h1, h2, h3, h4, h5 ,h6, p {
+.overview h1, h2, h3, h4, h5 ,h6, p, a {
     color: var(--over-text);
 }
+
 /*main-content*/
 .central-content {
     max-width: 780px;
 }
+
 /*main-fonts*/
 .central-content h1 {
     font-weight: 200;
@@ -44,6 +46,7 @@
     font-size: 1.1em;
     font-family: 'Liberation-Sans', sans-serif;
 }
+
 /*image-releated*/
 .carrousel {
     margin: 0 auto;
@@ -75,6 +78,7 @@
     font-size: 0.9em;
 }
 .one-cell p {color: var(--gallery-text);}
+/*description-item*/
 .name-cell {
     font-size: 1rem;
     font-weight: 600;
@@ -104,6 +108,7 @@
 .separation {
     padding: 0 1em;
 }
+/*icons*/
 .icon-cell {
     text-align: center;
 }
@@ -115,4 +120,17 @@
     width: 12px;
     height: 10px;
     margin-right: 2px;
+}
+
+/*moreMarketplace*/
+#text-right {
+    float: right;
+    margin-top: 1.5em;
+    margin-right: 1em;
+    font-size: 0.8em;
+    margin-bottom: 2em;
+}
+#text-right:hover {
+    text-decoration: underline;
+    opacity: 0.8;
 }
