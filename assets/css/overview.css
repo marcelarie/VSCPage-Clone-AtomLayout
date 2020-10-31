@@ -55,29 +55,47 @@
 #extension-market {}
 .one-cell {
     float: left;
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding: 2em 1em;
     margin-top: 8px;
     text-decoration: none;
     width: 25%;
     border: 1px solid #819c67;
     border-radius: 3px;
     background-color: var(--gallery-color);
+    font-size: 0.9em;
 }
 .one-cell p {color: var(--gallery-text);}
-.cover {}
+.cover {
+}
+.name-cell {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: left;
+    position: relative;
+}
+.info-cell {
+    position: relative;
+    display: flex;
+}
+.publisher {
+    margin-right: 1.5em;
+}
+.installs {
+    display: flex;
+    margin-bottom: 1em;
+}
 .details {}
 .separation {}
 .python {}
 
 .icon-cell {
-        text-align: center;
-    padding: 16px 0;
+    text-align: center;
 }
-.icon-cell img { width: 72px;}
+.icon-cell img { 
+    width: 72px;
+}
 .install-icon img {
     width: 12px;
     height: 10px;
+    margin-right: 2px;
 }
