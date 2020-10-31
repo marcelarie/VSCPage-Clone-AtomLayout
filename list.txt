@@ -6,7 +6,7 @@ Atom : https://atom.io/
 ╦═╗┌─┐┌─┐┌─┐┬ ┬┬─┐┌─┐┌─┐┌─┐
 ╠╦╝├┤ └─┐│ ││ │├┬┘│  ├┤ └─┐
 ╩╚═└─┘└─┘└─┘└─┘┴└─└─┘└─┘└─┘
-
+https://medium.com/@heitorhherzog/what-is-the-difference-between-href-href-and-href-javascript-void-0-54e3cf31c9bd
 ╦═╗┌─┐┌─┐ ┬ ┬┬┬─┐┌─┐┌┬┐┌─┐┌┐┌┌┬┐┌─┐
 ╠╦╝├┤ │─┼┐│ ││├┬┘├┤ │││├┤ │││ │ └─┐
 ╩╚═└─┘└─┘└└─┘┴┴└─└─┘┴ ┴└─┘┘└┘ ┴ └─┘
@@ -18,8 +18,12 @@ Atom : https://atom.io/
 [] Make it responsive too
 [] Background icons of VSCode extensions
 [X] (Fabri) Main home page part B
-[] The three kings final download
-[] Footer
+[X] (Fabri) The three kings final download
+[X] Footer
+[] Make carrousel without JS
+[] Make breadcrumbs
+[] VSCode mini-icon on browser tab
+[]
 ╦┌┐┌┌─┐┬┌┬┐┌─┐┌┐┌┌┬┐┌─┐
 ║││││  │ ││├┤ │││ │ └─┐
 ╩┘└┘└─┘┴─┴┘└─┘┘└┘ ┴ └─┘
