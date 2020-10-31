@@ -11,8 +11,8 @@
 }
 /* LIVE-SHARE CARD */
 .live-share {
-  border: 1px solid gray;
-  padding: .5em 1em;
+  border: 1px solid #ddd;
+  border-radius: 3px;
   margin-bottom: 1em;
 }
 .live-share h4 a {
@@ -23,30 +23,50 @@
 .live-share h4 a:hover {
   text-decoration: underline;
 }
+.live-share p {
+  font-weight: 400;
+}
 .head {
   margin-bottom: 1em;
+}
+.head,
+.meta-left,
+.meta-right {
+  padding: .5em 1em;
 }
 .meta {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background: #fafafa;
 }
 .meta-right span {
   margin-right: .5em;
   color: #999;
 }
 .btn-install {
+  background: #68a672;
+  background-image: linear-gradient(#75bb80, #68a672);
+  background-repeat: repeat-x;
+  border-color: #62a26c;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+  line-height: 1.5em;
+  cursor: pointer;
+  transition: background 200ms ease-in-out;
+}
+.btn-install:hover {
   background: #5B9A65;
-  color: var(--text);
 }
 .star {
   color: orangered;
 }
 /* DOCUMENTATION CARD */
 .card{
-  border: 1px solid gray;
+  border-radius: 3px;
+  font-size: .9em;
 }
-.card ul {
+/* .card ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
@@ -56,6 +76,24 @@
   padding: .5em;
   cursor: pointer;
   transition: color 200ms ease-in-out;
+} */
+.card ul {
+  display: table;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+.card ul li {
+  display: table-cell;
+  list-style-type: none;
+  width: 1%;
+  text-align: center;
+  border-right: 1px solid #ddd;
+  white-space: nowrap;
+  padding: .5em 1em;
+}
+.card ul li:last-child {
+  border: none;
 }
 .card ul li:hover {
   color: var(--green);
@@ -63,18 +101,30 @@
 /* DOCUMENTATION TEXT */
 .documentation h1 {
   font-size: 2.5em;
-  font-weight: 600;
+  font-weight: 700;
   border-bottom: 1px solid #ddd;
   margin: 1em auto;
 }
 .documentation h2 {
   font-size: 2em;
-  font-weight: 500;
+  font-weight: 700;
   border-bottom: 1px solid #ddd;
   margin: 2em auto 1em;
 }
+.documentation p {
+  font-size: 1em;
+  margin-bottom: 15px;
+}
 .documentation a {
   color: var(--green);
+}
+.documentation li {
+  margin: 15px;
+  line-height: 1.7;
+  display: list-item;
+}
+.documentation img {
+  margin: 15px 0;
 }
 /* FOOTER */
 footer {
