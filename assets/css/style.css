@@ -34,7 +34,7 @@ h3 {
   font-size: 2em;
   letter-spacing: .05em;
   font-weight: 200;
-  margin-bottom: .25em;
+  margin-bottom: .85em;
 }
 h4 {
   font-size: 1.2em;
@@ -101,16 +101,18 @@ nav ul li:hover,
 .wrapper-features {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content:center;
+  width: 79%;
+  margin: 0 auto;
 }
 .text {
   padding: 2em 5em 5em;
   justify-content: center;
-  margin: 0 auto;
 }
 .text p {
   margin-bottom: 3em;
-  width: 70%;
+  width: 90%;
+  text-justify: right;
 }
 .text .btn {
   padding: .5em 1em;
@@ -124,6 +126,9 @@ nav ul li:hover,
   color: var(--text);
   cursor: pointer;
   transition: opacity 200ms easy-in-out;
+}
+.btn-right { 
+    float: right;
 }
 .text .btn:active {
   transform: translateY(2px);
