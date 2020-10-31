@@ -153,8 +153,27 @@
 
 /*feedback*/
 .feedback-box {
+    margin-top: 2em;
     border: 1px solid #819c67;
+    width: 75%;
     border-radius: 3px;
     background-color: var(--gallery-color);
     padding: 1em 3em;
+}
+.feedback-button {
+    background-color:var(--green) ;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: var(--text);
+    cursor: pointer;
+    transition: opacity 200ms easy-in-out;
+    padding: .5em 1em;
+}
+.feedback-button:hover {
+    background-color: #2B8A5C;
+}
+.feedback-button:active {
+    transform: translateY(2px);
+    background-color: #257E53;
 }
