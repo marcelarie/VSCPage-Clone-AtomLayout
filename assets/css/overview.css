@@ -1,6 +1,7 @@
 :root {
     --gallery-color: #dce3d4;
     --gallery-text: #4c7226;
+    --link: #40a977;
 }
 
 /*fonts*/
@@ -131,6 +132,18 @@
     margin-bottom: 2em;
 }
 #text-right:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+/*firstSteps*/
+.firstSteps p {
+    line-height: 2.5em;
+}
+.firstSteps a {
+    color: var(--link);
+}
+.firstSteps a:hover {
     text-decoration: underline;
     opacity: 0.8;
 }
