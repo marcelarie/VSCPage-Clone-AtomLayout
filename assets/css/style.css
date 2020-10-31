@@ -1,7 +1,7 @@
 @import "plugin.css";
 
 :root {
- --navbar: #584A4F;
+ --navbar: #584B4F;
  --bg: #353537;
  --text: #efeae1;
  --darkerText:#343233;
@@ -59,6 +59,20 @@ a {
 .link:hover {
   opacity: .8;
 }
+.active {
+  color: #A29F99;
+}
+.btn {
+  padding: .5em 1em;
+  line-height: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: opacity 200ms easy-in-out;
+}
+
 /************
     NAVBAR
 ************/
@@ -79,16 +93,15 @@ nav ul {
 nav ul li {
   float: left;
   margin: 0 .5em;
-  font-size: 0.9em;
   color: var(--text);
-}
-.login a {
-    font-size: 0.9em;
-    color: var(--text);
 }
 nav ul li:hover,
 .login a:hover {
   color: var(--green);
+}
+.login a {
+    font-size: 0.9em;
+    color: var(--text);
 }
 /************
   FEATURES
@@ -135,7 +148,6 @@ nav ul li:hover,
   background: #0172C6;
 }
 .text .btn:hover {
-
   opacity: .9;
 }
 /*************
@@ -210,8 +222,5 @@ nav ul li:hover,
   width: 75%;
   margin: auto;
   line-height: 2.5;
-}
-=======
-  opacity: .8;
 }
 

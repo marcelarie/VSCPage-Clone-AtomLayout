@@ -3,16 +3,79 @@
   color: #574c4f;
   padding: 2em;
 }
-.main-container {
+.main-contianer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  padding: 0 10em;
 }
-.documentation li a {
+/* LIVE-SHARE CARD */
+.live-share {
+  border: 1px solid gray;
+  padding: .5em 1em;
+  margin-bottom: 1em;
+}
+.live-share h4 a {
+  font-size: 28px;
+  font-weight: 300;
   color: var(--green);
 }
-
+.live-share h4 a:hover {
+  text-decoration: underline;
+}
+.head {
+  margin-bottom: 1em;
+}
+.meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.meta-right span {
+  margin-right: .5em;
+  color: #999;
+}
+.btn-install {
+  background: #5B9A65;
+  color: var(--text);
+}
+.star {
+  color: orangered;
+}
+/* DOCUMENTATION CARD */
+.card{
+  border: 1px solid gray;
+}
+.card ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card ul li {
+  padding: .5em;
+  cursor: pointer;
+  transition: color 200ms ease-in-out;
+}
+.card ul li:hover {
+  color: var(--green);
+}
+/* DOCUMENTATION TEXT */
+.documentation h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+  border-bottom: 1px solid #ddd;
+  margin: 1em auto;
+}
+.documentation h2 {
+  font-size: 2em;
+  font-weight: 500;
+  border-bottom: 1px solid #ddd;
+  margin: 2em auto 1em;
+}
+.documentation a {
+  color: var(--green);
+}
 /* FOOTER */
 footer {
   display: block;
