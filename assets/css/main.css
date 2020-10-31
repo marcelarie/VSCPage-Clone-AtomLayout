@@ -39,7 +39,7 @@
     letter-spacing: .15em;
     font-weight: 300;
 }
-#download-list li a:hover { 
+#download-list .border-download-item a:hover { 
     color: #ffc31f;
 }
 #download-list span{ 
