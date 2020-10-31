@@ -112,7 +112,7 @@ nav ul li:hover,
 .text p {
   margin-bottom: 3em;
   width: 90%;
-  text-justify: right;
+  text-justify: left;
 }
 .text .btn {
   padding: .5em 1em;
@@ -156,15 +156,13 @@ nav ul li:hover,
   padding: 7em 4em;
 }
 .text-extensions {
-  justify-content: center;
   margin: 0 auto;
 }
 .text-extensions p {
-  width: 70%;
+  width: 80%;
 }
-.image-extensions img {
-  width: 100%;
-}
+/* .image-extensions img { } */
+
 /************
   DOWNLOAD
 ************/
