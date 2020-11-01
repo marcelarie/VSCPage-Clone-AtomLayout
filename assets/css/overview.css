@@ -187,8 +187,9 @@
 /*breadcrumbs*/
 #big-list {
     float: left;
-    position:static;
-    width: 230px;
+    position: absolute;
+    left: 15%;
+    width: 200px;
 }
 #big-list h4 {
     margin: none;
@@ -196,8 +197,8 @@
     font-weight: 600;
     font-family: 'Liberation-Sans', sans-serif;
     font-size: 1em;
+    text-indent: -15px;
 }
 #big-list li {
-    text-indent: 15px;
+    line-height: 1.6em;
 }
-
