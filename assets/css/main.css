@@ -9,6 +9,13 @@
 .normal-text {
     font-size: 18px;
 }
+/*fonts*/
+@font-face {
+  font-family: 'Liberation-Sans';
+  src: url(assets/fonts/liberationSans/LiberationSans-Regular.ttf);
+}
+/*inconsolata*/
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&display=swap');
 /*logo*/
 .overview header {
     padding: 0%;
@@ -41,6 +48,14 @@
 #screenshot-cont {
     margin-right: 3em;
 }
+/*fonts*/
+@font-face {
+  font-family: 'Liberation-Sans';
+  src: url(assets/fonts/liberationSans/LiberationSans-Regular.ttf);
+}
+/*inconsolata*/
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&display=swap');
+/*download-list*/
 #download-list {
     border:1px solid #4e4b4d;
     border-radius: 20px;
@@ -67,10 +82,12 @@
     color: #8e8373;
     font-weight: 400;
 }
-#download-button a { color:var(--darkerText);}
+#download-button a { 
+    color:var(--darkerText);
+}
 #download-list #download-icon {
-    font-weight: 200;
-    font-size:0.7em;
+    font-weight: 400;
+    font-size:0.8em;
     margin: 0.7em 0.9em;
 }
 .border-download-item {
@@ -104,6 +121,9 @@
 .download-icon {
     height: 18px;
     margin: 0 5px;
+}
+#download-icon {
+    font-family: 'Inconsolata', sans-serif;
 }
 /*sub-menu*/
 #sub-menu {

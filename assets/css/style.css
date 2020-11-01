@@ -218,7 +218,7 @@ nav ul li:hover,
   text-shadow: 0 -1px 0 rgba(255,255,255,.4);
   white-space: nowrap;
   vertical-align: middle;
-  padding: 0.5em 0.8em;
+  padding: 0.8em 1.5em;
   background: var(--yellow-buttons);
   color: var(--darkerText);
   outline: none;
@@ -230,6 +230,7 @@ nav ul li:hover,
   cursor: pointer;
   transition: opacity 200ms ease-in-out;
   cursor: pointer;
+  border: none;
 }
 .download-button button:hover {
   opacity: .9;
