@@ -11,28 +11,204 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/main.css">
   <title>VS Code - Overview</title>
 </head>
 <body>
+  <!-- NAVBAR -->
   <header>
     <nav>
-      <a href="/index.html">
+      <a href="/index.html" class="logo">
         <img src="/assets/img/visual-studio-code.svg" width="25px" height="25px" alt="vs-code-icon">
       </a>
       <ul>
         <li><a href="/overview.html">Overview</a></li>
-        <li><a href="/plugin.html">Plugin</a></li>
-        <li><a href="https://code.visualstudio.com/updates/v1_50">Documentation</a></li>
-        <li><a href="https://code.visualstudio.com/blogs/2020/07/27/containers-edu">Blog</a></li>
+        <li><a href="/plugin.html" class="active">Plugin</a></li>
+        <li><a href="https://code.visualstudio.com/updates/v1_50" target="_blank">Documentation</a></li>
+        <li><a href="https://code.visualstudio.com/blogs/2020/07/27/containers-edu" target="_blank">Blog</a></li>
       </ul>
     </nav>
     <div class="login">
         <a href=""><i class="fas fa-sign-in-alt"></i> Sign in</a>
     </div>
   </header>
+  <!-- MAIN SECTION -->
   <section id="main">
-    <h1>Hello</h1>
+    <div class="main-contianer">
+      <!-- LIVE SHARE CARD -->
+      <div class="live-share">
+        <div class="head">
+          <h4><a href="">Live Share</a></h4>
+          <p>Real-time collaborative development from the comfort of your favorite tools.</p>
+        </div>
+        <div class="meta">
+          <div class="meta-left">
+           <img src="assets/img/Microsoft.VisualStudio.Services.Icons.Default" alt="live-share-icon" width="50">
+          </div>
+          <div class="meta-right">
+            <span>
+             <i class="fas fa-cloud-download-alt"></i>
+              3,139,300 installs |
+            </span>
+            <span>
+              <i class="fas fa-star star"></i>
+              <i class="fas fa-star star"></i>
+              <i class="fas fa-star star"></i>
+              <i class="fas fa-star star"></i>
+              <i class="fas fa-star-half-alt star"></i>
+              (96) |</span>
+            <span>Free</span>
+            <button class="btn btn-install">
+              <i class="fas fa-cloud-download-alt"></i>
+               Install
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- DOCUMENTATION CARD -->
+      <div class="card">
+        <ul>
+          <li><a href="https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare&ssr=false#overview" target="_blank">Overview</a></li>
+          <li><a href="https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare#quickstart-sharing" target="_blank">Version History</a></li>
+          <li><a href="https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare&ssr=false#qna" target="_blank">Q & A</a></li>
+          <li><a href="https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare&ssr=false#review-details" target="_blank">Rating & Review</a></li>
+        </ul>
+      </div>
+      <!-- DOCUMENTATION TEXT -->
+      <div class="documentation">
+        <h1>Microsoft Visual Studio Live Share</h1>
+        <p>
+          Visual Studio Live Share enables you to collaboratively edit and debug with others in real time, regardless what <a href="https://docs.microsoft.com/en-us/visualstudio/liveshare/reference/platform-support#visual-studio-code" target="_blank" class="link">programming languages</a> you're using or app types you're building. It allows you to instantly (and <a href="https://docs.microsoft.com/en-us/visualstudio/liveshare/reference/security" target="_blank" class="link">securely</a>) share your current project, and then as needed, share <a href="https://docs.microsoft.com/en-us/visualstudio/liveshare/use/vscode#co-debugging" target="_blank" class="link">debugging sessions</a>, <a href="https://docs.microsoft.com/en-us/visualstudio/liveshare/use/vscode#share-a-terminal" target="_blank" class="link">terminal instances</a>, <a href="https://docs.microsoft.com/en-us/visualstudio/liveshare/use/vscode#share-a-server" target="_blank" class="link">localhost web apps</a> , <a href="https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-audio" target="_blank" class="link">voice calls</a>, and more! Developers that join your sessions receive all of their editor context from your environment (e.g. language services, debugging), which ensures they can start productively collaborating immediately, without needing to clone any repos or install any SDKs.
+        </p>
+        <p>
+          Additionally, unlike traditional pair programming, Visual Studio Live Share allows developers to work together, while retaining their personal editor preferences (e.g. theme, keybindings), as well as having their own cursor. This allows you to seamlessly transition between <a href="https://docs.microsoft.com/en-us/visualstudio/liveshare/use/vscode#following" class="link">following one another</a>, and being able to explore ideas/tasks on your own. In practice, this ability to work together and independently provides a collaboration experience that is potentially more natural for many <a href="https://docs.microsoft.com/en-us/visualstudio/liveshare/reference/use-cases" class="link">common use cases</a>.
+        </p>
+        <h2>Installation</h2>
+        <ol>
+          <li>
+            If needed, install <a href="https://code.visualstudio.com/" target="_blank" class="link">Visual Studio Code</a> for Windows (7+), macOS (Sierra+), or Linux (<a href="https://docs.microsoft.com/en-us/visualstudio/liveshare/use/vscode#installation" target="_blank" class="link">details</a>).</li>
+          <li>
+            Download and install the Visual Studio Live Share extension for Visual Studio Code.
+            <blockquote>
+              <p>
+                If you're interested in integrated voice calling as well, then you can install the <a href="https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack" target="_blank" class="link">VS Live Share Extension Pack</a>, which includes both the Live Share and Live Share Audio extensions.
+              </p>
+            </blockquote>
+          </li>
+          <li>
+            Wait for the extension to finish downloading and then reload VS Code when prompted.
+          </li>
+          <li>
+            Wait for Visual Studio Live Share to finish installing dependencies (<i>you'll see progress updates in the status bar</i>).
+          </li>
+          <li>
+            Once complete, you'll see <code>Live Share</code> appear in your status bar. You can now begin collaborating with others immediately! Check out the <a href="#quickstart" target="_blank" class="link">quickstart</a> below for information on how to get started.
+            <br>
+            <img src="assets/img/doc-1.png" alt="live-share-img" width="200">
+          </li>
+        </ol>
+        <p class="imp"><strong>Linux users:</strong>  You may see a notification about installing <a href="https://docs.microsoft.com/en-us/visualstudio/liveshare/reference/linux#install-linux-prerequisites" target="_blank" class="link">missing libraries:</a></p>
+        <ol>
+          <li>If you'd prefer not to run an automated script, you may <a href="https://docs.microsoft.com/en-us/visualstudio/liveshare/reference/linux#details-on-required-libraries" target="_blank" class="link">install the libraries manually</a>.</li>
+          <li>To auto-install, click <code>Install</code> in the notification.</li>
+          <li>A terminal window will appear and run a script. Your OS will ask you to enter your admin (sudo) password for the run package install commands. While the script is in the extension for security reasons, you can review the latest script contents <a href="https://raw.githubusercontent.com/MicrosoftDocs/live-share/master/scripts/linux-prereqs.sh" target="_blank" class="link">here</a>.</li>
+          <li>Restart VS Code when done.</li>
+        </ol>
+        <h2>Quickstart (Sharing)</h2>
+        <p class="imp">After installing VS Live Share, it only takes a few steps to instantly share your currently open project:</p>
+        <ol>
+          <li>
+            Click the <code>Live Share</code> button in your status bar, which will share your project, and copy a unique session URL to your clipboard.
+            <br>
+            <img src="assets/img/doc-1.png" alt="live-share-img" width="200">
+            <br>
+            You'll be asked to sign in the first time you share (using a GitHub or Microsoft account), which allows others to identity you when collaborating.
+            <blockquote>
+              <p>
+                On Windows, you may be asked to allow Live Share to open a firewall port, in order to enable peer-to-peer connections.
+              </p>
+            </blockquote>
+          </li>
+          <li>
+            Send the session URL (that is copied to your clipboard) to the developers you'd like to collaborate with, using e-mail, Skype, Slack, etc. Once received, all they'll need to do is click the link in order to <a href="#quickstart" target="_blank" class="link">get started</a>.
+            <br>
+            <img src="assets/img/doc-2.png" alt="live-share-img" width="600">
+          </li>
+          <li>
+            That's it! Once an invited "guest" joins, you'll get a notification, and will see their cursor appear in your currently opened file. All guests will start out <a href="https://docs.microsoft.com/en-us/visualstudio/liveshare/use/vscode#following" target="_blank" class="link">"following"</a> you, which means that as you scroll or navigate between files, they will track those actions as well. This makes it easy to orient them with the issue/question/task you're about to start collaborating on.
+            <br>
+            <img src="assets/img/doc-3.png" alt="live-share-img" width="400">
+          </li>
+          <li>
+            To get the most out of Live Share, check out the <code>Session Details</code> viewlet, by clicking the Live Share logo in your activity bar. From there, you can <a href="https://docs.microsoft.com/en-us/visualstudio/liveshare/use/vscode#following" target="_blank" class="linkl">follow/focus participants</a>, see which file/line everyone is currently editing, and even share <a href="https://docs.microsoft.com/en-us/visualstudio/liveshare/use/vscode#share-a-server" target="_blank" class="link">localhost servers</a> and <a href="https://docs.microsoft.com/en-us/visualstudio/liveshare/use/vscode#share-a-terminal" target="_blank" class="link">terminals</a>.
+            <br>
+            <img src="assets/img/doc-4.png" alt="live-share-img" width="400">
+            <blockquote>
+              <p>
+                Want to evaluate VS Live Share but don't have anyone to collaborate with? No problem! You can actually share with yourself from another instance of VS Code. Simply open the session URL in your browser to get started.
+              </p>
+            </blockquote>
+          </li>
+        </ol>
+        <h2 id="quickstart">Quickstart (Joining)</h2>
+        <p class="imp">After installing VS Live Share, joining a collaboration session only requires a few steps:</p>
+        <ol>
+          <li>Click the session URL the "host" sent you, which will open it up in a browser. When prompted, allow your browser to launch VS Code</li>
+          <li>You'll be asked to sign in the first time you share (using a GitHub or Microsoft account), which allows others to identity you when collaborating.</li>
+          <li>
+            That's it! After you join, you'll be immediately presented with the file that the "host" has open, and can see their cursor and any edits they make.
+            <br>
+            Additionally, you start out "following" the host, so as they scroll or navigate between files, you'll follow along with them. This makes it easy to orient yourself with the issue/question/task you're about to start collaborating on.
+          </li>
+          <li>
+            To get the most out of Live Share, check out the Session Details viewlet, by clicking the Live Share logo in your activity bar. From there, you can <a href="https://docs.microsoft.com/en-us/visualstudio/liveshare/use/vscode#following" target="_blank" class="link">follow/focus participants</a>, see which file/line everyone is currently editing, and open any <a href="https://docs.microsoft.com/en-us/visualstudio/liveshare/use/vscode#share-a-server" target="_blank" class="link">localhost servers</a> and <a href="https://docs.microsoft.com/en-us/visualstudio/liveshare/use/vscode#share-a-terminal" target="_blank" class="link">terminals</a> that have been shared as part of the collaboration session.
+            <br>
+            <img src="assets/img/doc-5.png" alt="live-share-img" width="400">
+            <br>
+            If you have any trouble joining, see the <a href="https://docs.microsoft.com/en-us/visualstudio/liveshare/reference/manual-join" target="_blank" class="link">"joining manually"</a> section in our docs for more information.
+            <blockquote>
+              <p>
+                By downloading and using Visual Studio Live Share, you agree to the <a href="https://microsoftdocs.github.io/live-share/license/eula.html" target="_blank" class="link">license terms</a> and  <a href="https://privacy.microsoft.com/en-gb/privacystatement" target="_blank" class="link">privacy statement</a>. See <a href="https://docs.microsoft.com/en-us/visualstudio/liveshare/troubleshooting" target="_blank" class="link">troubeshooting</a> if you run into problems.
+              </p>
+            </blockquote>
+          </li>
+        </ol>
+        <h2>More Information</h2>
+        <ul>
+          <li><a href="https://docs.microsoft.com/en-us/visualstudio/liveshare/" target="_blank" class="link">Documentation</a></li>
+          <li><a href="https://visualstudio.microsoft.com/services/live-share/" target="_blank" class="link">Visual Studio Live Share Site</a></li>
+          <li><a href="https://docs.microsoft.com/en-gb/visualstudio/liveshare/faq" target="_blank" class="link">Visual Studio Live Share FAQ</a></li>
+          <li><a href="https://github.com/MicrosoftDocs/live-share/blob/master/CONTRIBUTING.md" target="_blank" class="link">Report a Problem</a></li>
+          <li><a href="https://docs.microsoft.com/en-us/visualstudio/liveshare/support" target="_blank" class="link">Contact Us</a> </li>
+          <li><a href="https://microsoftdocs.github.io/live-share/license/eula.html" target="_blank" class="link">License</a></li>
+        </ul>
+      </div>
+      <div class="details"></div>
+    </div>
   </section>
+  <!-- FOOTER -->
+  <footer>
+  <div class="footer">
+    <div class="footer-elements">
+      <ul id="footer-left">
+        <li><a href=https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=d66407ed-3967-b000-4cfb-2c318cad363d" target="_blank">Support</a></li>
+        <li><a href="https://privacy.microsoft.com/en-us/privacystatement" target="_blank">Privacy</a></li>
+        <li><a href="" target="_blank">Manage Cookies</a></li>
+        <li><a href="https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default" target="_blank">Terms of Use</a></li>
+        <li><a href="https://code.visualstudio.com/License" target="_blank">License</a></li>
+        <li><a href="" target="_blank">Hello from Seattle.</a></li>
+        <li><a href="https://twitter.com/code" target="_blank">Follow @code</a></li>
+      </ul>
+      <div id="footer-rigth">
+        <a href="https://github.com">
+          <img alt="brackets" src="assets/img/icon-1.png">
+          with
+          <img alt="love" src="assets/img/icon-2.png">
+            by
+          <img alt="gitHub" src="assets/img/icon-3.png">
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
