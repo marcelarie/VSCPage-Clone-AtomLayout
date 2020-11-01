@@ -2,6 +2,7 @@
     --gallery-color: #dce3d4;
     --gallery-text: #4c7226;
     --link: #40a977;
+    --dark-link: #348A61;
 }
 
 /*fonts*/
@@ -145,10 +146,10 @@
 .firstSteps p {
     line-height: 2.5em;
 }
-.firstSteps a, #big-list a {
+.firstSteps a, #big-list a, #breadcrumbs a {
     color: var(--link);
 }
-.firstSteps a:hover, #big-list a:hover {
+.firstSteps a:hover, #big-list a:hover, #breadcrumbs a:hover {
     text-decoration: underline;
     opacity: 0.8;
 }
@@ -185,6 +186,32 @@
 }
 
 /*breadcrumbs*/
+#sub-navibar {
+    position: fixed;
+    top: 10%;
+    right: 20%;
+}
+#sub-navibar h4 {
+    margin: none;
+    padding: none;
+    font-weight: 900;
+    font-family: 'Liberation-Sans', sans-serif;
+    font-size: 0.9em;
+}
+#social-media {
+    margin-top: 1.2em;
+    font-size: 0.7em;
+    font-weight: 600;
+}
+#social-media img {
+    width: 17px;
+    height: 17px;
+    margin-right: 0.5em;
+}
+#social-media a {
+    color: var(--dark-link);
+}
+/*overview-list*/
 #big-list {
     float: left;
     position: absolute;
@@ -201,4 +228,31 @@
 }
 #big-list li {
     line-height: 1.6em;
+}
+
+/*media-queries*/
+@media screen and (max-width: 1870px) {
+    #sub-navibar {
+        right: 15%;
+    }
+    #big-list {
+        left: 10%;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    #sub-navibar {
+        right: 9%;
+    }
+    #big-list {
+        left: 6%;
+    }
+}
+@media screen and (max-width: 1350px) {
+    #sub-navibar {
+        right: 2%;
+    }
+    #big-list {
+        left: 2%;
+    }
 }
