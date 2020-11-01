@@ -145,10 +145,10 @@
 .firstSteps p {
     line-height: 2.5em;
 }
-.firstSteps a {
+.firstSteps a, #big-list a {
     color: var(--link);
 }
-.firstSteps a:hover {
+.firstSteps a:hover, #big-list a:hover {
     text-decoration: underline;
     opacity: 0.8;
 }
@@ -184,4 +184,20 @@
     background-color: #257E53;
 }
 
+/*breadcrumbs*/
+#big-list {
+    float: left;
+    position:static;
+    width: 230px;
+}
+#big-list h4 {
+    margin: none;
+    padding: none;
+    font-weight: 600;
+    font-family: 'Liberation-Sans', sans-serif;
+    font-size: 1em;
+}
+#big-list li {
+    text-indent: 15px;
+}
 
