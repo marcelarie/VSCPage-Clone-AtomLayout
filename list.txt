@@ -7,6 +7,7 @@ Atom : https://atom.io/
 ╠╦╝├┤ └─┐│ ││ │├┬┘│  ├┤ └─┐
 ╩╚═└─┘└─┘└─┘└─┘┴└─└─┘└─┘└─┘
 https://medium.com/@heitorhherzog/what-is-the-difference-between-href-href-and-href-javascript-void-0-54e3cf31c9bd
+
 ╦═╗┌─┐┌─┐ ┬ ┬┬┬─┐┌─┐┌┬┐┌─┐┌┐┌┌┬┐┌─┐
 ╠╦╝├┤ │─┼┐│ ││├┬┘├┤ │││├┤ │││ │ └─┐
 ╩╚═└─┘└─┘└└─┘┴┴└─└─┘┴ ┴└─┘┘└┘ ┴ └─┘
@@ -14,17 +15,28 @@ https://medium.com/@heitorhherzog/what-is-the-difference-between-href-href-and-h
 ╔╦╗┌─┐  ╔╦╗┌─┐
  ║ │ │   ║║│ │
  ╩ └─┘  ═╩╝└─┘
-[X] Make main home page a flexible box
-[a little] Make it responsive too
-[] Background icons of VSCode extensions
-[X] (Fabri) Main home page part B
-[X] (Fabri) The three kings final download
-[X] Footer
-[] Make carrousel without JS
-[X] Make breadcrumbs
-[X] VSCode mini-icon on browser tab
-[X] Add fotter to overview
-[X] Make VSCODE logo 
+
+    [X] Make main home page a flexible box
+    [a little] Make it responsive too
+    [] Background icons of VSCode extensions
+    [X] (Fabri) Main home page part B
+    [X] (Fabri) The three kings final download
+    [X] Footer
+    [] Make carrousel without JS
+    [X] Make breadcrumbs
+    [X] VSCode mini-icon on browser tab
+    [X] Add fotter to overview
+    [X] Make VSCODE logo 
+
+
+Quick Fixes:
+    [X] Add margin to header on overview
+    [X] Add logo and logo-text to plugin.html
+    [X] Make footer same color on plugin page 
+    [X] Fix buttons on index.html
+    [X] Fix link on navibar on plugins page
+    [X] Fix title main page
+    [X] Fix atom style list
 ╦┌┐┌┌─┐┬┌┬┐┌─┐┌┐┌┌┬┐┌─┐
 ║││││  │ ││├┤ │││ │ └─┐
 ╩┘└┘└─┘┴─┴┘└─┘┘└┘ ┴ └─┘

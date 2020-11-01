@@ -9,6 +9,13 @@
 .normal-text {
     font-size: 18px;
 }
+/*fonts*/
+@font-face {
+  font-family: 'Liberation-Sans';
+  src: url(assets/fonts/liberationSans/LiberationSans-Regular.ttf);
+}
+/*inconsolata*/
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&display=swap');
 /*logo*/
 .overview header {
     padding: 0%;
@@ -41,6 +48,14 @@
 #screenshot-cont {
     margin-right: 3em;
 }
+/*fonts*/
+@font-face {
+  font-family: 'Liberation-Sans';
+  src: url(assets/fonts/liberationSans/LiberationSans-Regular.ttf);
+}
+/*inconsolata*/
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&display=swap');
+/*download-list*/
 #download-list {
     border:1px solid #4e4b4d;
     border-radius: 20px;
@@ -52,24 +67,27 @@
     text-align: center;
     font-size: 1.5em;
     letter-spacing: .15em;
-    font-weight: 300;
+    font-weight: 400;
 }
 #download-list .border-download-item a:hover { 
     color: #ffc31f;
 }
 #download-list span{ 
     letter-spacing: 0.40em;
+    padding: 0 0.4em;
 }
 #download-list a {
-    font-size: 0.5em;
+    font-size: 0.55em;
     letter-spacing: 0.10em;
     color: #8e8373;
-    font-weight: 200;
+    font-weight: 400;
 }
-#download-button a { color:var(--darkerText);}
+#download-button a { 
+    color:var(--darkerText);
+}
 #download-list #download-icon {
-    font-weight: 200;
-    font-size:0.7em;
+    font-weight: 400;
+    font-size:0.8em;
     margin: 0.7em 0.9em;
 }
 .border-download-item {
@@ -104,6 +122,9 @@
     height: 18px;
     margin: 0 5px;
 }
+#download-icon {
+    font-family: 'Inconsolata', sans-serif;
+}
 /*sub-menu*/
 #sub-menu {
     height:200px;
@@ -117,7 +138,7 @@
 .text-license {
     letter-spacing: 0.04em;
     color: #8e8373;
-    font-weight: 200;
+    font-weight: 600;
     margin-bottom: 2em;
 }
 #license {
@@ -130,11 +151,14 @@
 }
 .code-redefined {
     font-weight: 200;
-    font-size: 2.7em;
+    font-size: 3em;
+}
+#main-subtitle {
+    font-size: 2.3em;
 }
 .tagline-highlight {
     color: #78b0a0;
-    margin-left: 1em;
+    margin-left: 0.3em;
 }
 
 /*footer*/
