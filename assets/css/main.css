@@ -159,12 +159,17 @@ footer {display: block;}
     float: left; 
     margin: 0 1em;
 }
-#footer-righ {
+#footer-right {
     float: right;
 }
 
+/*media-queries*/
 
-
+@media screen and (max-width: 1550px) {
+    .wrapper-features {
+        width: 95%;
+    }
+}
 
 
 
