@@ -258,3 +258,42 @@ nav ul li:hover,
   margin: auto;
   line-height: 2.5;
 }
+
+@media screen and (max-width: 600px) {
+  .wrapper-features {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 4em auto;
+  }
+  .wrapper-features:nth-child(odd) {
+    flex-direction: column-reverse;
+  }
+  .text {
+    padding: 2em .5em;
+  }
+  .text p {
+    width: 100%;
+  }
+  .btn {
+    display: block;
+    margin: auto;
+  }
+  .text-extensions {
+    margin: 2em auto;
+  }
+  .text-extensions p {
+    width: 100%;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .download-button button {
+    margin-bottom: 1em;
+    width: 200px;
+    padding: 0;
+    align-items: center;
+    display: block;
+  }
+}
