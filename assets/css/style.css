@@ -7,12 +7,15 @@
  --darkerText:#343233;
  --darkText: #776F62;
  --yellow: #FFC31E;
+ --yellow-b-hover: #ffc31f;
+ --yellow-b-active: #ebac00;
  --yellow-buttons: #FFD152;
  --blueGreen: #45EDC6;
  --orange: #D46E2D;
- --green: #3B9B6D;
+ --green: #3b9b6d;
  --footer: #EFEAE1;
  --footer-text: #574c4f;
+ --over-text: #66595c;
 }
 * {
   margin: 0;
@@ -33,7 +36,7 @@ h3 {
   font-size: 2em;
   letter-spacing: .05em;
   font-weight: 200;
-  margin-bottom: .25em;
+  margin-bottom: .85em;
 }
 h4 {
   font-size: 1.2em;
@@ -113,16 +116,18 @@ nav ul li:hover,
 .wrapper-features {
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 0 4em;
+  justify-content:center;
+  width: 79%;
+  margin: 0 auto;
 }
 .text {
   padding: 2em 5em 5em;
   justify-content: center;
-  margin: 0 auto;
 }
 .text p {
-  margin-bottom: 1em;
+  margin-bottom: 3em;
+  width: 90%;
+  text-justify: left;
 }
 .text .btn {
   padding: .5em 1em;
@@ -131,10 +136,17 @@ nav ul li:hover,
   font-weight: 500;
   border: none;
   border-radius: 5px;
+  outline: none;
   color: var(--text);
   text-shadow: 0 -1px 0 rgba(0,0,0,.25);
   cursor: pointer;
   transition: opacity 200ms easy-in-out;
+}
+.btn-right { 
+    float: right;
+}
+.text .btn:active {
+  transform: translateY(2px);
 }
 .intelliSense {
   background: #2F3192;
@@ -158,15 +170,13 @@ nav ul li:hover,
   padding: 7em 4em;
 }
 .text-extensions {
-  justify-content: center;
   margin: 0 auto;
 }
 .text-extensions p {
-  width: 70%;
+  width: 80%;
 }
-.image-extensions img {
-  width: 100%;
-}
+/* .image-extensions img { } */
+
 /************
   DOWNLOAD
 ************/
@@ -189,12 +199,13 @@ nav ul li:hover,
   margin-top: 1.5em;
 }
 .download-button button {
-  padding: .75em 1.5em;
-  background: var(--yellow-buttons);
-  color: var(--darkerText);
   text-shadow: 0 -1px 0 rgba(255,255,255,.4);
   white-space: nowrap;
   vertical-align: middle;
+  padding: 0.5em 0.8em;
+  background: var(--yellow-buttons);
+  color: var(--darkerText);
+  outline: none;
   font-weight: 500;
   font-size: 1.1em;
   line-height: inherit;
@@ -202,9 +213,15 @@ nav ul li:hover,
   border-radius: 5px;
   cursor: pointer;
   transition: opacity 200ms ease-in-out;
+  cursor: pointer;
 }
 .download-button button:hover {
   opacity: .9;
+  background-color: var(--yellow-b-hover);
+}
+.download-button button:active {
+    background-color: var(--yellow-b-active);
+    transform: translateY(2px);
 }
 
 /***********
@@ -229,4 +246,3 @@ nav ul li:hover,
   margin: auto;
   line-height: 2.5;
 }
-

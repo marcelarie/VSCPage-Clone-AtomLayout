@@ -5,15 +5,31 @@
     list-style: none;
     text-decoration: none;
 }
-a { color: inherit; }
 /*fontReleated*/
 .normal-text {
     font-size: 18px;
 }
-/*background*/
+/*logo*/
+.overview header {
+    padding: 0%;
+}
+#logo span {
+    color: var(--text);
+    font-size: 1.3em;
+    font-weight: 800;
+}
+#logo img {
+    margin-right: 0.4em;
+    height: 2.6em;
+}
+#logo ul {
+    margin-left: 1em;
+}
 /*MainPage A*/
 #vsc-screenshot {
-    border-radius: 11%;
+    border-radius: 1%;
+    width: 624px;
+    box-shadow: 2px 4px 30px 10px rgba(0,0,0,0.25);
 }
 /*menuCenter*/
 #features {
@@ -38,6 +54,9 @@ a { color: inherit; }
     letter-spacing: .15em;
     font-weight: 300;
 }
+#download-list .border-download-item a:hover { 
+    color: #ffc31f;
+}
 #download-list span{ 
     letter-spacing: 0.40em;
 }
@@ -61,20 +80,22 @@ a { color: inherit; }
 /*download*/
 .buttons { border:none;}
 .buttons a{
-    background-color: #FFD152;
-    color: #343233;
-    padding: 17px 27px;
+    background-color: var(--yellow-buttons);
+    color: var(--darkerText);
+    padding: 1em 1.5em;
     flex: 1;
     margin-right: 2px;
     font-size: 0.9em;
     font-weight: 200;
     border-radius: 5px;
+    cursor: pointer;
 }
 .buttons a:hover {
     background-color: #ffc31f;
 }
 .buttons a:active {
     background-color:#ebac00;
+    transform: translateY(2px);
 }
 .orange-hover a:hover {
     color: #ffc31f;
@@ -91,7 +112,7 @@ a { color: inherit; }
     justify-content:center;
     flex-direction: column;
     text-align: center;
-    margin-bottom: 7em;
+    margin-bottom: 3em;
 }
 .text-license {
     letter-spacing: 0.04em;
@@ -109,15 +130,12 @@ a { color: inherit; }
 }
 .code-redefined {
     font-weight: 200;
-    font-size: 3.7em;
+    font-size: 2.7em;
 }
 .tagline-highlight {
     color: #78b0a0;
     margin-left: 1em;
 }
-.main-subtitle {
-}
-
 
 /*footer*/
 footer {display: block;}
@@ -141,12 +159,17 @@ footer {display: block;}
     float: left;
     margin: 0 1em;
 }
-#footer-rigth {
+#footer-right {
     float: right;
 }
 
+/*media-queries*/
 
-
+@media screen and (max-width: 1550px) {
+    .wrapper-features {
+        width: 95%;
+    }
+}
 
 
 
