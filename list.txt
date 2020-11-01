@@ -23,7 +23,8 @@ https://medium.com/@heitorhherzog/what-is-the-difference-between-href-href-and-h
 [] Make carrousel without JS
 [] Make breadcrumbs
 [] VSCode mini-icon on browser tab
-[]
+[] Add fotter to overview
+[] Make VSCODE logo 
 ╦┌┐┌┌─┐┬┌┬┐┌─┐┌┐┌┌┬┐┌─┐
 ║││││  │ ││├┤ │││ │ └─┐
 ╩┘└┘└─┘┴─┴┘└─┘┘└┘ ┴ └─┘

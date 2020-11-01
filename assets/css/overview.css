@@ -9,6 +9,8 @@
   font-family: 'Liberation-Sans';
   src: url(assets/fonts/liberationSans/LiberationSans-Regular.ttf);
 }
+/*inconsolata*/
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&display=swap');
 
 /*main container*/
 .content-push {
@@ -23,7 +25,7 @@
 
 /*color changes*/
 .overview {
-    background-color: var(--text);
+    background-color: #FFFFFF;
 }
 .overview h1, h2, h3, h4, h5 ,h6, p, #text-right a {
     color: var(--over-text);
@@ -154,11 +156,15 @@
 /*feedback*/
 .feedback-box {
     margin-top: 2em;
-    border: 1px solid #819c67;
+    border: 2px solid #ddd;
     width: 75%;
     border-radius: 3px;
-    background-color: var(--gallery-color);
+    background-color: #333;
     padding: 1em 3em;
+}
+#feedback-box p, #feedback-box button {
+    color: #fff;
+    font-family: 'Inconsolata', monospace;
 }
 .feedback-button {
     background-color:var(--green) ;
@@ -177,3 +183,5 @@
     transform: translateY(2px);
     background-color: #257E53;
 }
+
+
