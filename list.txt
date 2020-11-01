@@ -33,10 +33,10 @@ Quick Fixes:
     [X] Add margin to header on overview
     [X] Add logo and logo-text to plugin.html
     [X] Make footer same color on plugin page 
-    [] Fix buttons on index.html
+    [X] Fix buttons on index.html
     [X] Fix link on navibar on plugins page
-    [] Fix title main page
-    [] Fix atom style list
+    [X] Fix title main page
+    [X] Fix atom style list
 ╦┌┐┌┌─┐┬┌┬┐┌─┐┌┐┌┌┬┐┌─┐
 ║││││  │ ││├┤ │││ │ └─┐
 ╩┘└┘└─┘┴─┴┘└─┘┘└┘ ┴ └─┘
