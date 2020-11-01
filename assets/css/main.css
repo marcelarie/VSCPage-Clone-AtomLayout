@@ -52,19 +52,20 @@
     text-align: center;
     font-size: 1.5em;
     letter-spacing: .15em;
-    font-weight: 300;
+    font-weight: 400;
 }
 #download-list .border-download-item a:hover { 
     color: #ffc31f;
 }
 #download-list span{ 
     letter-spacing: 0.40em;
+    padding: 0 0.4em;
 }
 #download-list a {
-    font-size: 0.5em;
+    font-size: 0.55em;
     letter-spacing: 0.10em;
     color: #8e8373;
-    font-weight: 200;
+    font-weight: 400;
 }
 #download-button a { color:var(--darkerText);}
 #download-list #download-icon {
@@ -117,7 +118,7 @@
 .text-license {
     letter-spacing: 0.04em;
     color: #8e8373;
-    font-weight: 200;
+    font-weight: 600;
     margin-bottom: 2em;
 }
 #license {
