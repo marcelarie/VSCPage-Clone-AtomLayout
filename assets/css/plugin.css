@@ -66,17 +66,6 @@
   border-radius: 3px;
   font-size: .9em;
 }
-/* .card ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.card ul li {
-  padding: .5em;
-  cursor: pointer;
-  transition: color 200ms ease-in-out;
-} */
 .card ul {
   display: table;
   width: 100%;
@@ -114,6 +103,7 @@
 .documentation p {
   font-size: 1em;
   margin-bottom: 15px;
+  color: var(--footer-text);
 }
 .documentation a {
   color: var(--green);
@@ -126,6 +116,26 @@
 .documentation img {
   margin: 15px 0;
 }
+.documentation code {
+  background: rgba(0,0,0,.04);
+  padding: .02em 0;
+  border-radius: 3px;
+  color: #333;
+  font-size: 1.2em;
+  line-height: inherit;
+  white-space: normal;
+}
+.documentation blockquote {
+  color: #777;
+  padding: 0 15px;
+  border-left: 4px solid #ddd;
+  margin: 15px;
+  margin-left: 0;
+}
+.imp {
+  font-weight: 500;
+}
+
 /* FOOTER */
 footer {
   display: block;
