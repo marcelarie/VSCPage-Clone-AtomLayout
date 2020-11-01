@@ -15,16 +15,16 @@ https://medium.com/@heitorhherzog/what-is-the-difference-between-href-href-and-h
  ║ │ │   ║║│ │
  ╩ └─┘  ═╩╝└─┘
 [X] Make main home page a flexible box
-[] Make it responsive too
+[a little] Make it responsive too
 [] Background icons of VSCode extensions
 [X] (Fabri) Main home page part B
 [X] (Fabri) The three kings final download
 [X] Footer
 [] Make carrousel without JS
 [X] Make breadcrumbs
-[] VSCode mini-icon on browser tab
+[X] VSCode mini-icon on browser tab
 [X] Add fotter to overview
-[] Make VSCODE logo 
+[X] Make VSCODE logo 
 ╦┌┐┌┌─┐┬┌┬┐┌─┐┌┐┌┌┬┐┌─┐
 ║││││  │ ││├┤ │││ │ └─┐
 ╩┘└┘└─┘┴─┴┘└─┘┘└┘ ┴ └─┘
