@@ -1,3 +1,6 @@
+header#plugin {
+  padding: 0;
+}
 #main {
   background: white;
   color: #574c4f;

@@ -87,6 +87,18 @@ header {
   padding: .7em 0;
   background: var(--navbar);
 }
+#logo span {
+  color: var(--text);
+  font-size: 1.3em;
+  font-weight: 800;
+}
+#logo img {
+  margin-right: 0.4em;
+  height: 2.6em;
+}
+#logo ul {
+  margin-left: 1em;
+}
 nav {
   display: flex;
   align-items: center;
@@ -142,9 +154,9 @@ nav ul li:hover,
   cursor: pointer;
   transition: opacity 200ms easy-in-out;
 }
-.btn-right { 
-    float: right;
-}
+/* .btn-right {
+  float: right;
+} */
 .text .btn:active {
   transform: translateY(2px);
 }
