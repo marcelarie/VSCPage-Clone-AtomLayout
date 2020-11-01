@@ -130,11 +130,14 @@
 }
 .code-redefined {
     font-weight: 200;
-    font-size: 2.7em;
+    font-size: 3em;
+}
+#main-subtitle {
+    font-size: 2.3em;
 }
 .tagline-highlight {
     color: #78b0a0;
-    margin-left: 1em;
+    margin-left: 0.3em;
 }
 
 /*footer*/

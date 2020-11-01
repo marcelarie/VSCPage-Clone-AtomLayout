@@ -30,12 +30,13 @@ https://medium.com/@heitorhherzog/what-is-the-difference-between-href-href-and-h
 
 
 Quick Fixes:
-    [] Add margin to header on overview
-    [] Add logo and logo-text to plugin.html
-    [] Make footer same color on plugin page 
+    [X] Add margin to header on overview
+    [X] Add logo and logo-text to plugin.html
+    [X] Make footer same color on plugin page 
     [] Fix buttons on index.html
-    [] Fix link on navibar on plugins page
-
+    [X] Fix link on navibar on plugins page
+    [] Fix title main page
+    [] Fix atom style list
 ╦┌┐┌┌─┐┬┌┬┐┌─┐┌┐┌┌┬┐┌─┐
 ║││││  │ ││├┤ │││ │ └─┐
 ╩┘└┘└─┘┴─┴┘└─┘┘└┘ ┴ └─┘
