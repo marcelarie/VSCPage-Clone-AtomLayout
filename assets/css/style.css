@@ -68,7 +68,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 0.7em 0;
   background: var(--navbar);
   margin-bottom: 2em;
 }

@@ -21,9 +21,9 @@ https://medium.com/@heitorhherzog/what-is-the-difference-between-href-href-and-h
 [X] (Fabri) The three kings final download
 [X] Footer
 [] Make carrousel without JS
-[] Make breadcrumbs
+[X] Make breadcrumbs
 [] VSCode mini-icon on browser tab
-[] Add fotter to overview
+[X] Add fotter to overview
 [] Make VSCODE logo 
 ╦┌┐┌┌─┐┬┌┬┐┌─┐┌┐┌┌┬┐┌─┐
 ║││││  │ ││├┤ │││ │ └─┐
