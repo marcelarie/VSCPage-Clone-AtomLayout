@@ -10,6 +10,9 @@
     font-size: 18px;
 }
 /*logo*/
+.overview header {
+    padding: 0%;
+}
 #logo span {
     color: var(--text);
     font-size: 1.3em;
