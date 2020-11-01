@@ -122,8 +122,7 @@ nav ul li:hover,
   margin: 0 auto;
 }
 .text p {
-  margin-bottom: 3em;
-  width: 70%;
+  margin-bottom: 1em;
 }
 .text .btn {
   padding: .5em 1em;
@@ -190,16 +189,16 @@ nav ul li:hover,
   margin-top: 1.5em;
 }
 .download-button button {
-  padding: .25em 1.25em;
+  padding: .75em 1.5em;
   background: var(--yellow-buttons);
   color: var(--darkerText);
-  /* text-shadow: 0 1px 0 rgba(255,255,255,.9); */
+  text-shadow: 0 -1px 0 rgba(255,255,255,.4);
   white-space: nowrap;
   vertical-align: middle;
   font-weight: 500;
   font-size: 1.1em;
   line-height: inherit;
-  border: none;
+  border-color: var(--yellow);
   border-radius: 5px;
   cursor: pointer;
   transition: opacity 200ms ease-in-out;
@@ -207,6 +206,7 @@ nav ul li:hover,
 .download-button button:hover {
   opacity: .9;
 }
+
 /***********
   CONTACT
 ***********/
