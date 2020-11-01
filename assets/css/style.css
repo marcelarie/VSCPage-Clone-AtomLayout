@@ -103,6 +103,18 @@ header {
   padding: .7em 0;
   background: var(--navbar);
 }
+#logo span {
+  color: var(--text);
+  font-size: 1.3em;
+  font-weight: 800;
+}
+#logo img {
+  margin-right: 0.4em;
+  height: 2.6em;
+}
+#logo ul {
+  margin-left: 1em;
+}
 nav {
   display: flex;
   align-items: center;
@@ -158,9 +170,9 @@ nav ul li:hover,
   cursor: pointer;
   transition: opacity 200ms easy-in-out;
 }
-.btn-right { 
-    float: right;
-}
+/* .btn-right {
+  float: right;
+} */
 .text .btn:active {
   transform: translateY(2px);
 }
@@ -262,4 +274,43 @@ nav ul li:hover,
   width: 75%;
   margin: auto;
   line-height: 2.5;
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper-features {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 4em auto;
+  }
+  .wrapper-features:nth-child(odd) {
+    flex-direction: column-reverse;
+  }
+  .text {
+    padding: 2em .5em;
+  }
+  .text p {
+    width: 100%;
+  }
+  .btn {
+    display: block;
+    margin: auto;
+  }
+  .text-extensions {
+    margin: 2em auto;
+  }
+  .text-extensions p {
+    width: 100%;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .download-button button {
+    margin-bottom: 1em;
+    width: 200px;
+    padding: 0;
+    align-items: center;
+    display: block;
+  }
 }
