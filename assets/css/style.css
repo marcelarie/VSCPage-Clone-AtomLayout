@@ -114,6 +114,7 @@ nav ul li:hover,
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0 4em;
 }
 .text {
   padding: 2em 5em 5em;
@@ -132,6 +133,7 @@ nav ul li:hover,
   border: none;
   border-radius: 5px;
   color: var(--text);
+  text-shadow: 0 -1px 0 rgba(0,0,0,.25);
   cursor: pointer;
   transition: opacity 200ms easy-in-out;
 }
